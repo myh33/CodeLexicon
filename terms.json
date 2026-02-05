@@ -1,0 +1,20 @@
+[
+  {
+    "term": "API",
+    "short": "Application Programming Interface – manier voor software om met elkaar te communiceren",
+    "long": "Een API is een set regels waarmee programma's met elkaar kunnen praten. Vaak gebruikt om data van servers te halen of functionaliteiten van externe services te gebruiken, zoals AI, kaarten, of betalingen.",
+    "example": "JS kan via fetch('https://api.example.com/data') data ophalen van een API"
+  },
+  {
+    "term": "Backend",
+    "short": "Deel van de app dat op de server draait en regelt data en logica",
+    "long": "Backend is alles wat achter de schermen gebeurt: databases, berekeningen, business logic. Vaak geschreven in Python, Node.js, Ruby, of Java. De backend communiceert met de frontend om data door te geven en acties uit te voeren.",
+    "example": "Python + Flask of Django, Node.js + Express"
+  },
+  {
+    "term": "Loop",
+    "short": "Herhaling in code om taken meerdere keren uit te voeren",
+    "long": "Loops worden gebruikt om stukken code te herhalen totdat een conditie waar of onwaar is. Dit voorkomt dat je dezelfde code meerdere keren moet schrijven.",
+    "example": "for i in range(5): print(i)"
+  }
+]
