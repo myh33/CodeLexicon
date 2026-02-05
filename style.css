@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.result-item {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.result-item h3 {
+  margin: 0;
+  cursor: pointer;
+  color: #0077cc;
+}
+
+.result-item p {
+  margin: 0.3rem 0;
+}
+
+.long {
+  display: none;
+  margin-top: 0.5rem;
+  background: #f0f8ff;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+pre {
+  background: #eee;
+  padding: 0.5rem;
+  border-radius: 5px;
+  overflow-x: auto;
+}
